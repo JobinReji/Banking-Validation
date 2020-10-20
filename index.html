@@ -99,7 +99,7 @@
                     /(\.jpg|\.jpeg|\.png)$/i; 
               
             if (!allowedExtensions.exec(filePath)) { 
-                alert('Invalid file type'); 
+                alert('Invalid file type, add only image file having extentions .jpeg, .jpg and .png'); 
                 fileInput.value = ''; 
                 return false; 
             }  
